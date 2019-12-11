@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Лабораторные</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tab.css">
+  </head>
+  <body>
+
+    <main>
+      <h2 style="text-align: right;">Студент: Подмарькова В.С.</h2>
+      <h2 style="text-align: right;">Группа: ИДБ-15-12</h2>
+  
+      
+      
+      
+    </main>
+<h2>Отчёты по лабораторным работам</h2>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Lab1')">Лабораторная №1</button>
+  <button class="tablinks" onclick="openCity(event, 'Lab2')">Лабораторная №2</button>
+  <button class="tablinks" onclick="openCity(event, 'Lab3')">Лабораторная №3</button>
+  <button class="tablinks" onclick="openCity(event, 'Lab4')">Лабораторная №4</button>
+  <button class="tablinks" onclick="openCity(event, 'Lab5')">Лабораторная №5-7</button>
+</div>
+
+<div id="Lab1" class="tabcontent">
+  <h3>Лабораторная работа №1</h3>
+  <p>
+ 
+	<h3>1. Идентификатор прецедента</h3>
+<p>CRM-система</p>
+<h3>2. Название прецедента</h3>
+<p>Управление взаимоотношениями с клиентами</p>
+<h3>3. Контекст</h3>
+<p>Организация</p>
+<h3>4. Участники (actors) и цели (goals)</h3>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 300px">
+	<tbody>
+		<tr>
+			<td>Учасник</td>
+			<td>Категория</td>
+			<td style="text-align: center;">Цель(goal)</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Основной</td>
+			<td>Работать в системе,вести сделки</td>
+		</tr>
+		<tr>
+			<td>Директор</td>
+			<td>Внешний</td>
+			<td>Анализировать работу менеджеров</td>
+		</tr>
+		<tr>
+			<td>IT-специалист</td>
+			<td>Внешний</td>
+			<td>Осуществлять техническую поддержку продукта</td>
+		</tr>
+		<tr>
+			<td>1С-предприятие</td>
+			<td>Инструмент</td>
+			<td>Предоставить среду для пользования системой</td>
+		</tr>
+	</tbody>
+</table>
+<h3>5. Предусловия (pre-conditions)</h3>
+<ul>
+	<li>Освоена работа в CRM-системе</li>
+	<li>Сформирована клиентская база</li>
+</ul>
+<h3>6. Постусловия (post-conditions)</h3>
+<ul>
+	<li>Сформирован отчет</li>
+</ul>
+<h3>7. Основной поток (main flow)</h3>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px">
+	<tbody>
+		<tr>
+			<td>Участник</td>
+			<td>Действие (activity)</td>
+			<td>Ожидаемый результат</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Осуществляет поиск клиента</td>
+			<td>Найден потепциальный клиент</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Создает лид</td>
+			<td>Сформирован заказ</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Создает сделку</td>
+			<td>Сформирована сделка</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Определяет задачи</td>
+			<td>Поставлены задачи</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Выставляет счет на оплату клиенту</td>
+			<td>Оформлена сделка</td>
+		</tr>
+		<tr>
+			<td>Менеджер</td>
+			<td>Предоставляет продукт клиенту</td>
+			<td>Выполнена сделка</td>
+		</tr>
+		<tr>
+			<td>IT-специалист</td>
+			<td>Осуществляет техническую поддержку продукта</td>
+			<td>Установлен программный продукт</td>
+		</tr>
+		<tr>
+			<td>Директор</td>
+			<td>Анализирует результат работы</td>
+			<td>Сформирован отчет</td>
+		</tr>
+	</tbody>
+</table>
+<h3>8. Исключения (exceptions)</h3>
+<ul>
+	<li>Неверно выставлен счет.</li>
+	<li>Продукт не предоставлен клиенту.</li>
+</ul>
+<h3>9. Альтернативы (alternates)</h3>
+<ul>
+	<li>Проверка реквизитов клиента, повторное выставление счета на оплату.</li>
+	<li>Предоставление продукта клиенту.</li>
+</ul>
+
+	  
+	</blockquote>
+<h3>Use Case диаграмма:</h3>
+  <p><img src="usecase.PNG" alt="" /></p>
+
+	
+	
+	
+  </p>
+</div>
+
+<div id="Lab2" class="tabcontent">
+  <h3>Лабораторная работа №2</h3>
+  <p>
+	<h3>1. Роли в коллективной работе — БА, НИ, КО.</h3>
+	<p>БА Бизнес-анализ - Эксперт</p>
+	<p>Очень серьезные и предусмотрительные люди с врожденным иммунитетом против чрезмерного энтузиазма. Медлительны в принятии решения, предпочитают хорошо все обдумать. Эксперты наиболее подходят для анализа проблем и оценки идей и предложений. Они хорошо умеют взвешивать все «за» и «против» предложенных вариантов.</p>
+	<p>НИ Научные исследования - генератор идей</p>
+	<p>Генераторы идей являются инноваторами и изобретателями, могут быть очень креативными. Они сеют зерно и идеи, из которых прорастают большинство разработок и проектов. Обычно предпочитают работать самостоятельно, отделившись от других членов команды, используя свое воображение и часто следуя нетрадиционным путем. Имеют склонность быть интровертами, сильно реагируют как на критику, так и на похвалу. Часто из идеи имеют радикальный характер, и им не хватает практических усилий. Основная функция Генераторов идей – создание новых предложений и решение сложных комплексных проблем. Они очень необходимы на начальных стадиях проектов или когда проект находится под угрозой срыва. Человек, который постоянно что-то меняет в текущем проекте(хочет сделать все идеально и с помощью новых технологий), в итоге приходится все переделывать, но иногда новые идеи приносят значимый результат(оооочень редко)." А давайте..."</p>
+	<p>КО Консалтинг (обучение) - Дипломат</p>
+	<p>Это люди, пользующиеся наибольшей поддержкой команды. Они очень вежливы, обходительны и общительны. Они умеют быть гибкими и адаптироваться к любой ситуации и разным людям. Роль Дипломатов состоит в предотвращении межличностных проблем, появляющихся в команде, и, поэтому это позволяет эффективно работать всем ее членам. Человек - "душа компании", человек, который следит за моральным состоянием команды и просто советчик, обычно разбирается во всем, но немного. Поддерживает программистов, которые устали и хотят новый проект.</p>
+	<h3>2. Проект — Приложение и проект визуализации моделей</h3>
+	<h3>3. Задача проекта — Программная реализация функции.</h3>
+	<h3>4. Риски:</h3>
+	<ul>
+	<li>Нереалистичные сроки и бюджет;</li>
+	<li>Разрыв между квалификацией специалистов и требованиями проекта.</li>
+	</ul>
+	<h3>5. Стратегия управления рисками — принятие.</h3>
+	<h3>6. Мероприятия управления рисками:</h3>
+	<ul>
+	<li>Обсуждение сроков сдачи проекта;</li>
+	<li>Повышение квалификации специалистов в нужных областях.</li>
+	</ul>
+	<h3> Статусы задач в канбан-доске</h3>
+<p>
+<table border="1" cellpadding="1" cellspacing="1">
+    <tr>
+      <td>
+        Бэклог
+      </td>
+      <td>
+        Принято в работу
+      </td>
+      <td>
+        Разработка
+      </td>
+      <td>
+        Внедрение
+      </td>
+      <td>
+        Завершено
+      </td>
+    </tr>
+  </table>
+</p>
+<h3>Диаграмма классов:</h3>
+  <p><img src="uml-class.PNG" alt="" /></p>
+  </p> 
+</div>
+
+<div id="Lab3" class="tabcontent">
+  <h3>Лабораторная работа №3</h3>
+  <p>
+  <p><img src="3.PNG" alt="" /></p>
+  </p>
+<head>
+		          <table>
+              <tr><td style="text-align: center;"><canvas id="canvas_tt5c7cfcad30f64" width="175" height="175"></canvas></td></tr>
+              <tr><td style="text-align: center; font-weight: bold"><a href="//24timezones.com/ru_vremia/moscow_mestnoe_vremia.php" style="text-decoration: none" class="clock24" id="tz24-1551695021-c1166-eyJzaXplIjoiMTc1IiwiYmdjb2xvciI6IjAwOTlGRiIsImxhbmciOiJydSIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWM3Y2ZjYWQzMGY2NCJ9" title="Москва мировое время" target="_blank" rel="nofollow">Текущее время в Москве</a></td></tr>
+          </table>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+		</head>
+		
+		
+		
+		<head>
+		<script type="text/javascript">
+  function digitalWatch() {
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    if (hours < 10) hours = "0" + hours;
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
+    document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+    setTimeout("digitalWatch()", 1000);
+  }
+</script>
+	</head>
+</div>
+    
+<div id="Lab4" class="tabcontent">
+  <h3>Лабораторная работа №4</h3>
+  <p>
+  <p><img src="4.PNG" alt="" /></p>
+	<h3>1. Набор тестов к выбранной пользовательской истории: </h3>
+					<ul>								
+						<li type = "circle">Тест на корректность ввода данных</li>
+						<li type = "circle">Тест на выполнимость приведения данных</li>
+						<li type = "circle">Тест структуры данных</li>
+					</ul>
+					<h3>2. Допустимость дублирования функций: </h3>
+					<p>Дублирование функций допустимо в том случае, если необходимо создать похожие структуры данных</p>
+					<h3>3. Допустимость «плохого кода»: </h3>
+					<p>«Плохой код» допустим, когда задача требует неординарных решений</p>
+					<h3>4. Способ учета технического долга: </h3>
+					<p>Будет отображено в репозитории GitHub, технический долг будет учитываться разработчиками следующего курса при продолжении проекта</p>
+					<h3>5. Тема реферата: Билет 1(вопрос 1)</h3>
+					<p>1) Понятия класса и объекта в объектно-ориентированном подходе, их семантическое соответствие понятиям реляционной алгебры.</p>
+  </p>
+</div>
+    
+<div id="Lab5" class="tabcontent">
+  <h3>Лабораторная работа №5-7</h3>
+  <p>
+	  <section>
+			<h2 class="h1 text-center blue-text my-5 font-weight-bold">
+				Лабораторная работа №5-7
+			</h2>	
+				<a href="https://github.com/stankin/oop-2018/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-%E2%84%961-(Class-Diagram)" class="h1 text-center purple-text my-5 font-weight-bold">
+							1. Выбранная задача: #1
+						</a>
+				<br></br>
+				<a href="https://github.com/stankin/oop-model/issues/43#issue-427265391" class="h1 text-center purple-text my-5 font-weight-bold">
+							2. Выбранный проект: Данные
+						</a>
+				<br></br>
+				<a href="https://github.com/stankin/oop-model/blob/master/UML%20Class%20Diagram/Document%20UML%20Class%20Diagram.docx" class="h1 text-center purple-text my-5 font-weight-bold">
+							3. Техническая документация
+						</a>
+				<br></br>
+<h3>Задачи</h3>
+				<br><img src="laba5.PNG" alt=""></br>
+<h3>Канбан-доска</h3>
+				<br><img src="laba6.PNG" width="1200" height="300" alt=""></br>
+<h3>Макет</h3>
+				<br><img src="laba7.png" width="1200" height="500" alt=""></br>
+		</section>
+</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  </body>
+</html>
